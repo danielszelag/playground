@@ -609,6 +609,11 @@ arraybuffer.prototype.slice@^1.0.2:
     is-array-buffer "^3.0.2"
     is-shared-array-buffer "^1.0.2"
 
+async@~0.2.9:
+  version "0.2.10"
+  resolved "https://registry.yarnpkg.com/async/-/async-0.2.10.tgz#b6bbe0b0674b9d719708ca38de8c237cb526c3d1"
+  integrity sha512-eAkdoKxU6/LkKDBzLpT+t6Ff5EtfSF4wx1WfJiPEEV7WNLnDaRXk0oVysiEPm262roaachGexwUv94WhSgN5TQ==
+
 asynciterator.prototype@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/asynciterator.prototype/-/asynciterator.prototype-1.0.0.tgz#8c5df0514936cdd133604dfcc9d3fb93f09b2b62"
@@ -702,6 +707,11 @@ color-name@~1.1.4:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/color-name/-/color-name-1.1.4.tgz#c2a09a87acbde69543de6f63fa3995c826c536a2"
   integrity sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==
+
+commander@~2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-2.0.0.tgz#d1b86f901f8b64bd941bdeadaf924530393be928"
+  integrity sha512-qebjpyeaA/nJ4w3EO2cV2++/zEkccPnjWogzA2rff+Lk8ILI75vULeTmyd4wPxWdKwtP3J+G39IXVZadh0UHyw==
 
 concat-map@0.0.1:
   version "0.0.1"
@@ -1141,6 +1151,23 @@ get-symbol-description@^1.0.0:
     call-bind "^1.0.2"
     get-intrinsic "^1.1.1"
 
+github-cli@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/github-cli/-/github-cli-0.0.5.tgz#c7dec31869bb3065d7f47398174469a5b961ab66"
+  integrity sha512-UTcxhpWwc+R4sKWz1Qal9Q/5MGvBA9/pOGiWctKmASBTOf58ZHQpc34CulfU91dhOK5BDbgNdyEyIGpAFqYerA==
+  dependencies:
+    async "~0.2.9"
+    commander "~2.0.0"
+    github "~0.1.10"
+    mute-stream "~0.0.4"
+    node.extend "~1.0.8"
+    read "~1.0.5"
+
+github@~0.1.10:
+  version "0.1.16"
+  resolved "https://registry.yarnpkg.com/github/-/github-0.1.16.tgz#895d2a85b0feb7980d89ac0ce4f44dcaa03f17b5"
+  integrity sha512-IVtcAhrb2HsThCNs1MTPuntLk6C1km0Q4A+md/FD/00SgyyJc4+2XsG1UsF2SUM7enumAgP5VKGVqzyyUmuNCw==
+
 glob-parent@^6.0.2:
   version "6.0.2"
   resolved "https://registry.yarnpkg.com/glob-parent/-/glob-parent-6.0.2.tgz#6d237d99083950c79290f24c7642a3de9a28f9e3"
@@ -1434,6 +1461,11 @@ is-weakset@^2.0.1:
     call-bind "^1.0.2"
     get-intrinsic "^1.1.1"
 
+is@~0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/is/-/is-0.3.0.tgz#a8f71dfc8a6e28371627f26c929098c6f4d5d5d7"
+  integrity sha512-WS0SSOCjAYLmQyBSKutk8y2UecAHFwKqI5zRlTskSUwI7ZG8RRO+yLGyCQPlnC8l/BrGy+76wG9FbKAxzz3B4Q==
+
 isarray@^2.0.5:
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/isarray/-/isarray-2.0.5.tgz#8af1e4c1221244cc62459faf38940d4e644a5723"
@@ -1555,6 +1587,11 @@ ms@2.1.2:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
+mute-stream@~0.0.4:
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.8.tgz#1630c42b2251ff81e2a283de96a5497ea92e5e0d"
+  integrity sha512-nnbWWOkoWyUsTjKrhgD0dcz22mdkSnpYqbEjIm2nhwhuxlSkpywJmBo8h0ZqJdkp73mb90SssHkN4rsRaBAfAA==
+
 nanoid@^3.3.6:
   version "3.3.6"
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.6.tgz#443380c856d6e9f9824267d960b4236ad583ea4c"
@@ -1569,6 +1606,13 @@ node-releases@^2.0.13:
   version "2.0.13"
   resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-2.0.13.tgz#d5ed1627c23e3461e819b02e57b75e4899b1c81d"
   integrity sha512-uYr7J37ae/ORWdZeQ1xxMJe3NtdmqMC/JZK+geofDrkLUApKRHPd18/TxtBOJ4A0/+uUIliorNrfYV6s1b02eQ==
+
+node.extend@~1.0.8:
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/node.extend/-/node.extend-1.0.10.tgz#3269bddf81c54535f408abc784c32b0d2bd55f6f"
+  integrity sha512-JKrWcPkV4WXDwiBowNu0UW79nc7YuYPvVWiUnWsuWWas15VAC8FJgIfXj5XHPxgHoWddixj3uGvt0cYltZck0w==
+  dependencies:
+    is "~0.3.0"
 
 object-assign@^4.1.1:
   version "4.1.1"
@@ -1767,6 +1811,13 @@ react@^18.2.0:
   integrity sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==
   dependencies:
     loose-envify "^1.1.0"
+
+read@~1.0.5:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/read/-/read-1.0.7.tgz#b3da19bd052431a97671d44a42634adf710b40c4"
+  integrity sha512-rSOKNYUmaxy0om1BNjMN4ezNT6VKK+2xF4GBhc81mkH7L60i6dp8qPYrkndNLT3QPphoII3maL9PVC9XmhHwVQ==
+  dependencies:
+    mute-stream "~0.0.4"
 
 reflect.getprototypeof@^1.0.4:
   version "1.0.4"

@@ -21,16 +21,7 @@ function App() {
     })
   }, [])
 
-  return (
-    <>
-      <BrowserRouter>
-        <Routes>
-          <Route path='/' />
-          {characters && characters.map((char) => <Character character={char} />)}
-        </Routes>
-      </BrowserRouter>
-    </>
-  )
+  return <>{characters && characters.map((char) => <Character character={char} />)}</>
 }
 
 export default App

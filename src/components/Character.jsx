@@ -1,8 +1,7 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 function Character({ character }) {
-  return <Link>{character.name}</Link>
+  return <div>{character.name}</div>
 }
 
 export default Character

@@ -14,13 +14,7 @@ function App() {
     return data.results
   }
 
-  useEffect(() => {
-    fetchData(swapiUrl, 'people').then((response) => {
-      setCharacters(response)
-    })
-  }, [])
-
-  return <>{characters && characters.map((char) => <Character character={char} />)}</>
+  return <div>LOL</div>
 }
 
 export default App

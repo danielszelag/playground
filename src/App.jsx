@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 import Character from './components/Character'
-import { BrowserRouter } from 'react-router-dom'
 
 function App() {
   const [characters, setCharacters] = useState([])
